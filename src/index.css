@@ -1,0 +1,421 @@
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(15, 15, 15, 0.87);
+  background-color: #ffffff;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#InstaLogo{
+  left: 29%;
+  width: 125px;
+  height: 63px;
+}
+
+.header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 45%;
+  z-index: 1000;
+}
+
+.input{
+ height: 25px;
+ width: 200px;
+ border: 1px solid lightgray;
+ text-align: center;
+ border-radius: 10px;
+ margin-inline: 200px;
+ margin-right: 180px;
+}
+
+.hr{
+  border: 1px solid lightgrey;
+}
+
+.feed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded{
+  border-radius: 60%;
+  margin: 0;
+}
+
+.profiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 25px;
+  margin-inline: 500px;
+  padding: 15px;
+  margin-top: 75px;
+}
+
+.profileBlock{
+  margin-inline: 10px;
+}
+
+.profileName{
+  margin: 0;
+}
+
+.fa-solid.fa-house{
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid.fa-house:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid.fa-heart{
+  transition: transform 0.2s ease-in;
+  margin: 10px;
+}
+
+.fa-solid.fa-comment{
+  transition: transform 0.2s ease-in;
+  margin: 10px;
+}
+
+.fa-solid.fa-comment:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+
+.fa-solid.fa-bookmark{
+  transition: transform 0.2s ease-in;
+  margin: 10px;
+}
+
+.fa-solid.fa-bookmark:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+
+.fa-solid.fa-heart:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid.fa-compass{
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid.fa-compass:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.fa-brands.fa-facebook-messenger{
+  transition: transform 0.2s ease-in;
+}
+
+.fa-brands.fa-facebook-messenger:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.buttons{
+  width: 100px;
+  margin: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.hr{
+  height: 1px;
+  margin: 0; 
+  margin-inline: 300px;
+  padding: 0;
+  border: none; 
+  background-color: #d6d0d0; 
+}
+
+.image{
+  margin-top: 0px;
+  margin-left: 130px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  height: 510px;
+  width: 510px;
+}
+
+.currentProfile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  border-bottom: none;
+
+  margin: 0;
+  margin-right: 50px;
+}
+
+.posts{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.currentProfileName{
+  color: black;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.profileLocation{
+  color: rgb(71, 71, 71);
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.profilePicture{
+  margin: 20px;
+  margin-left: 300px;
+}
+
+
+
+.post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.postSettings{
+  margin-left: 300px;
+}
+
+.content{
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  margin-block: 50px;
+}
+
+.button{
+  background-color: transparent;
+  border: none;
+  
+}
+
+.postTime{
+  color: rgb(122, 122, 122);
+  margin-top: 5px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+}
+
+.commentProfileName{
+    color: black;
+    margin: 0;
+    margin-top: -5px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+
+.commentContainer{
+  max-width: 800px;
+  margin-right: 50px;
+  display: flex;
+  align-items: start;
+  text-align: start;
+}
+
+.comment{
+  display: flex;
+
+}
+
+.commentName{
+  color: black;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.button{
+  background-color: transparent;
+  border: none;
+  margin-top: 0px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  
+}
+
+.buttonShare{
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  
+}
+
+.buttonShare{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+
+.commentsHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotated-button {
+  transition: transform 0.5s;
+  transform: rotate(180deg); 
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.commentText{
+  word-break: break-word;
+  color: rgb(71, 71, 71);
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+
+
+
+.commentProfilePicture{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.commentContent{
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+
+.fa-solid.fa-share{
+  transition: transform 0.2s ease-in;
+  margin: 10px;
+}
+
+.fa-solid.fa-share:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid.fa-arrow-down{
+  transition: transform 0.2s ease-in;
+  margin: 10px;
+}
+
+.fa-solid.fa-arrow-down:hover{
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.commentTop{
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: -8px;
+}
+
+
+.commentTime{
+  color: rgb(122, 122, 122);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.commentLike{
+  display: flex;
+  justify-content: start;
+  margin-left: -15px;
+}
+
+
+.numberLikesComment{
+  color: rgb(100, 100, 100);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-left: -8px;
+}
+
+.commentSection {
+  transition: height 0.5s ease-in-out;
+}
+
+.answer{
+  border: none;
+  background-color: transparent;
+}
+
+.answerButtonText{
+  line-height: 1.5;
+  font-weight: 550;
+  color: rgba(15, 15, 15, 0.87);
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+.fa-solid.fa-ellipsis-vertical:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s ease-out;
+}
+
+.fa-solid.fa-ellipsis-vertical{
+  transition: transform 0.2s ease-in;
+}
